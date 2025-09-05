@@ -35,9 +35,9 @@ menu = {
 common_allergens = {"gluten", "dairy", "nuts"}
 
 # Displaying restaurant information
-display(site_name, target="name1")
+display(site_name, target="sitename")
 display(f"Since {No_of_CDs}", target="since")
-display(f"Menu Pricelist", target="heading1")
+display(f"Pricelist", target="Pricelist")
 
 # Display menu items
 display(product_names[0], target="prod1")
@@ -57,6 +57,7 @@ display(f"Message us at: 555-7324 for any inquiries.", target="openingHours")
 
 # Display order type
 display(f"CD Restock on 10/14/2025", target="orderType")
+
 
 
 
