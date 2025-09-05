@@ -37,7 +37,7 @@ common_allergens = {"gluten", "dairy", "nuts"}
 # Displaying restaurant information
 display(site_name, target="name1")
 display(f"Available: {No_of_CDs}", target="since")
-display(f"📀 Prices 💿", target="heading1")
+display(f"Prices", target="heading1")
 
 # Display menu items
 display(product_names[0], target="prod1")
@@ -57,5 +57,6 @@ display(f"Contact No. 09178328744", target="openingHours")
 
 # Display order type
 display(f"Restock on October 23, 2025", target="orderType")
+
 
 
