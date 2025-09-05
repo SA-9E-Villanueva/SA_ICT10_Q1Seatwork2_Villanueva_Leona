@@ -8,7 +8,7 @@ site_name = "CDs for Sale"
 No_of_CDs = 5
 
 # Float data type
-tax_rate = 0.08  # 8% tax
+tax_rate = 0.10  # 10% tax
 
 # Boolean data type
 has_delivery = True
@@ -16,19 +16,19 @@ is_dine_in = True
 is_takeaway = False
 
 # List data type
-product_names = ["Spaghetti Carbonara", "Garlic Bread", "Caesar Salad"]
-beverages = ["Iced Tea", "Sparkling Water"]
+minted = ["Smashing Pumpkins - Siamese Dream (Minted)", "Usher - 8701 (Minted)", "Cher - Believe (Minted)"]
+slightly_damaged = ["Elton John - Something About The Way You Look Tonight", "Miles Davis - Kind of Blue: 50th Anniversary Legacy Edition"]
 
 # Tuple data type
 business_hours = ("11:00 AM", "10:00 PM")
 
 # Dictionary data type
-menu = {
-    "Spaghetti Carbonara": 79.99,
-    "Caesar Salad": 150.00,
-    "Garlic Bread": 50.00,
-    "Iced Tea": 30.00,
-    "Sparkling Water": 20.00
+cds = {
+    "Smashing Pumpkins - Siamese Dream (Minted)": 5.03,
+    "Usher - 8701 (Minted)": 5.30,
+    "Cher - Believe (Minted)": 2.65,
+    "Elton John - Something About The Way You Look Tonight": 4.41,
+    "Miles Davis - Kind of Blue: 50th Anniversary Legacy Edition": 18
 }
 
 # Set data type
@@ -41,15 +41,15 @@ display(f"Pricelist", target="Pricelist")
 
 # Display menu items
 display(product_names[0], target="cd1")
-display(f"₱{menu['Spaghetti Carbonara']:.2f}", target="price1")
+display(f"${cds['Smashing Pumpkins - Siamese Dream (Minted)']:.2f}", target="price1")
 display(product_names[1], target="cd2")
-display(f"₱{menu['Garlic Bread']:.2f}", target="price2")
+display(f"${cds['Usher - 8701 (Minted)']:.2f}", target="price2")
 display(product_names[2], target="cd3")
-display(f"₱{menu['Caesar Salad']:.2f}", target="price3")
+display(f"${cds['Cher - Believe (Minted)']:.2f}", target="price3")
 display(beverages[0], target="cd4")
-display(f"₱{menu['Iced Tea']:.2f}", target="price4")
+display(f"${cds['Elton John - Something About The Way You Look Tonight']:.2f}", target="price4")
 display(beverages[1], target="cd5")
-display(f"₱{menu['Sparkling Water']:.2f}", target="price5")
+display(f"${cds['Miles Davis - Kind of Blue: 50th Anniversary Legacy Edition']:.2f}", target="price5")
 
 # Display additional information
 display(f"Message us at: 555-7324 for any inquiries.", target="messageus")
@@ -57,6 +57,7 @@ display(f"Message us at: 555-7324 for any inquiries.", target="messageus")
 
 # Display order type
 display(f"CD Restock on 10/14/2025", target="restock")
+
 
 
 
