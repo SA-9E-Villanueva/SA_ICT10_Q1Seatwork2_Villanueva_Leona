@@ -40,23 +40,24 @@ display(f"Since {No_of_CDs}", target="available")
 display(f"Pricelist", target="Pricelist")
 
 # Display menu items
-display(product_names[0], target="prod1")
+display(product_names[0], target="cd1")
 display(f"₱{menu['Spaghetti Carbonara']:.2f}", target="price1")
-display(product_names[1], target="prod2")
+display(product_names[1], target="cd2")
 display(f"₱{menu['Garlic Bread']:.2f}", target="price2")
-display(product_names[2], target="prod3")
+display(product_names[2], target="cd3")
 display(f"₱{menu['Caesar Salad']:.2f}", target="price3")
-display(beverages[0], target="prod4")
+display(beverages[0], target="cd4")
 display(f"₱{menu['Iced Tea']:.2f}", target="price4")
-display(beverages[1], target="prod5")
+display(beverages[1], target="cd5")
 display(f"₱{menu['Sparkling Water']:.2f}", target="price5")
 
 # Display additional information
-display(f"Message us at: 555-7324 for any inquiries.", target="openingHours")
+display(f"Message us at: 555-7324 for any inquiries.", target="messageus")
 
 
 # Display order type
-display(f"CD Restock on 10/14/2025", target="orderType")
+display(f"CD Restock on 10/14/2025", target="restock")
+
 
 
 
