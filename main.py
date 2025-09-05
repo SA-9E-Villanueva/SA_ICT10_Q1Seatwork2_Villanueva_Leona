@@ -52,12 +52,13 @@ display(slightly_damaged[1], target="cd5")
 display(f"${cds['Miles Davis - Kind of Blue: 50th Anniversary Legacy Edition']:.2f}", target="price5")
 
 # Display additional information
-display(f"Store is Available during: {business_hours[0]} - {business_hours[1]}", target="opentime")
+display(f"Store is Available during: {openhours[0]} - {openhours[1]}", target="opentime")
 display(f"Message us at: 555-7324 for any inquiries.", target="messageus")
 
 
 # Display order type
 display(f"CD Restock on 10/14/2025", target="restock")
+
 
 
 
