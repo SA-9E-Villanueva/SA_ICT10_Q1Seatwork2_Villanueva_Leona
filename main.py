@@ -2,11 +2,10 @@ from pyscript import display
 # Restaurant Order System using Python Data Types
 
 # String data type
-restaurant_name = "Duo Brew"
-owner_name = "Luisito Balajadia"
+site_name = "Thrifted CDs For Sale"
 
 # Integer data type
-year_since = 2025
+No_of_CDs = 7
 
 # Float data type
 tax_rate = 0.08  # 8% tax
@@ -36,10 +35,9 @@ menu = {
 common_allergens = {"gluten", "dairy", "nuts"}
 
 # Displaying restaurant information
-display(restaurant_name, target="name1")
-display(f"Owner: {owner_name}", target="owner")
-display(f"Since {year_since}", target="since")
-display(f"Menu Pricelist", target="heading1")
+display(site_name, target="name1")
+display(f"Available: {year_since}", target="since")
+display(f"📀 Prices 💿", target="heading1")
 
 # Display menu items
 display(product_names[0], target="prod1")
@@ -54,8 +52,9 @@ display(beverages[1], target="prod5")
 display(f"₱{menu['Sparkling Water']:.2f}", target="price5")
 
 # Display additional information
-display(f"Open: {business_hours[0]} - {business_hours[1]}", target="openingHours")
+display(f"Contact No. 09178328744", target="openingHours")
 
 
 # Display order type
-display(f"Dine-in Available", target="orderType")
+display(f"Restock on October 23, 2025", target="orderType")
+
