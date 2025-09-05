@@ -20,7 +20,7 @@ minted = ["Smashing Pumpkins - Siamese Dream (Minted)", "Usher - 8701 (Minted)",
 slightly_damaged = ["Elton John - Something About The Way You Look Tonight", "Miles Davis - Kind of Blue: 50th Anniversary Legacy Edition"]
 
 # Tuple data type
-business_hours = ("11:00 AM", "10:00 PM")
+openhours = ("7:00 AM", "3:00 PM")
 
 # Dictionary data type
 cds = {
@@ -52,11 +52,13 @@ display(slightly_damaged[1], target="cd5")
 display(f"${cds['Miles Davis - Kind of Blue: 50th Anniversary Legacy Edition']:.2f}", target="price5")
 
 # Display additional information
+display(f"Store is Available during: {business_hours[0]} - {business_hours[1]}", target="opentime")
 display(f"Message us at: 555-7324 for any inquiries.", target="messageus")
 
 
 # Display order type
 display(f"CD Restock on 10/14/2025", target="restock")
+
 
 
 
