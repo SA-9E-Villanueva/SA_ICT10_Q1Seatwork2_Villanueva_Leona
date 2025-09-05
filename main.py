@@ -36,19 +36,19 @@ common_allergens = {"gluten", "dairy", "nuts"}
 
 # Displaying restaurant information
 display(site_name, target="sitename")
-display(f"Since {No_of_CDs}", target="available")
+display(f"Available CDs: {No_of_CDs}", target="available")
 display(f"Pricelist", target="Pricelist")
 
 # Display menu items
-display(product_names[0], target="cd1")
+display(minted[0], target="cd1")
 display(f"${cds['Smashing Pumpkins - Siamese Dream (Minted)']:.2f}", target="price1")
-display(product_names[1], target="cd2")
+display(minted[1], target="cd2")
 display(f"${cds['Usher - 8701 (Minted)']:.2f}", target="price2")
-display(product_names[2], target="cd3")
+display(minted[2], target="cd3")
 display(f"${cds['Cher - Believe (Minted)']:.2f}", target="price3")
-display(beverages[0], target="cd4")
+display(slightly_damaged[0], target="cd4")
 display(f"${cds['Elton John - Something About The Way You Look Tonight']:.2f}", target="price4")
-display(beverages[1], target="cd5")
+display(slightly_damaged[1], target="cd5")
 display(f"${cds['Miles Davis - Kind of Blue: 50th Anniversary Legacy Edition']:.2f}", target="price5")
 
 # Display additional information
@@ -57,6 +57,7 @@ display(f"Message us at: 555-7324 for any inquiries.", target="messageus")
 
 # Display order type
 display(f"CD Restock on 10/14/2025", target="restock")
+
 
 
 
