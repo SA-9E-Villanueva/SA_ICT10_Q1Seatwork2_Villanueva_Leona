@@ -11,9 +11,9 @@ No_of_CDs = 5
 tax_rate = 0.10  # 10% tax
 
 # Boolean data type
-has_delivery = True
-is_dine_in = True
-is_takeaway = False
+free_shipping = True
+all_minted = False
+all_secondhand = False
 
 # List data type
 minted = ["Smashing Pumpkins - Siamese Dream (Minted)", "Usher - 8701 (Minted)", "Cher - Believe (Minted)"]
@@ -41,23 +41,24 @@ display(f"Pricelist", target="Pricelist")
 
 # Display menu items
 display(minted[0], target="cd1")
-display(f"${cds['Smashing Pumpkins - Siamese Dream (Minted)']:.2f}", target="price1")
+display(f"${cds['˚⟡ Smashing Pumpkins - Siamese Dream (Minted)']:.2f}", target="price1")
 display(minted[1], target="cd2")
-display(f"${cds['Usher - 8701 (Minted)']:.2f}", target="price2")
+display(f"${cds['˚⟡ Usher - 8701 (Minted)']:.2f}", target="price2")
 display(minted[2], target="cd3")
-display(f"${cds['Cher - Believe (Minted)']:.2f}", target="price3")
+display(f"${cds['˚⟡ Cher - Believe (Minted)']:.2f}", target="price3")
 display(slightly_damaged[0], target="cd4")
-display(f"${cds['Elton John - Something About The Way You Look Tonight']:.2f}", target="price4")
+display(f"${cds['˚⟡ Elton John - Something About The Way You Look Tonight']:.2f}", target="price4")
 display(slightly_damaged[1], target="cd5")
-display(f"${cds['Miles Davis - Kind of Blue: 50th Anniversary Legacy Edition']:.2f}", target="price5")
+display(f"${cds['˚⟡ Miles Davis - Kind of Blue: 50th Anniversary Legacy Edition']:.2f}", target="price5")
 
 # Display additional information
-display(f"Store is Available during: {openhours[0]} - {openhours[1]}", target="opentime")
-display(f"Message us at: 555-7324 for any inquiries.", target="messageus")
+display(f"Store is open from {openhours[0]} to {openhours[1]}", target="opentime")
+display(f"Message us at 555-7324 for any inquiries.", target="messageus")
 
 
 # Display order type
 display(f"CD Restock on 10/14/2025", target="restock")
+
 
 
 
