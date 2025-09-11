@@ -2,7 +2,7 @@ from pyscript import display
 # Restaurant Order System using Python Data Types
 
 # String data type
-site_name = "CDs for Sale"
+site_name = "Thrifted CDs for Sale"
 
 # Integer data type
 No_of_CDs = 5
@@ -58,6 +58,7 @@ display(f"ʚ Message us at 555-7324 for any inquiries.", target="messageus")
 
 # Display order type
 display(f"!!! CD Restock on 10/14/2025 !!!", target="restock")
+
 
 
 
